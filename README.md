@@ -16,4 +16,9 @@
 2. Copy index.css from tastejs/todomvc-app-css to src/styles/base.css
 3. Edit index.html and remove all script tags and adjust the css links to just include 'styles/base.css'
 4. Have a dev server (lite-server, browser-sync, http-server) in your path and start it with src as webroot
- 
+
+### Setup JavaScript scripts without module system
+
+1. Create a 'scripts/main.js' starting point
+2. Create a 'scripts/model/todo.js' Todo-Item model file
+3. Reference both files hardcoded in index.html
