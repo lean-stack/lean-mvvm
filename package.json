@@ -1,0 +1,19 @@
+{
+  "name": "lean-mvvm",
+  "version": "1.0.0",
+  "description": "Lean MVVM framework demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lean-stack/mvvm.git"
+  },
+  "author": "Micha Alt <mail@lean-stack.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lean-stack/mvvm/issues"
+  },
+  "homepage": "https://github.com/lean-stack/mvvm#readme"
+}
