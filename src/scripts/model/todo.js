@@ -1,7 +1,7 @@
 
 let lastId = 0;
 
-class Todo {
+export class Todo {
 
      constructor (txt) {
          this.txt = txt;
@@ -9,4 +9,4 @@ class Todo {
          this.id = ++lastId;
      }
 
-    }
+}

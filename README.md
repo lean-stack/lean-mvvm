@@ -22,3 +22,10 @@
 1. Create a 'scripts/main.js' starting point
 2. Create a 'scripts/model/todo.js' Todo-Item model file
 3. Reference both files hardcoded in index.html
+
+### Turn code into ES6 modules and use webpack as bundler
+
+1. Change ```todo.js``` to be a module
+2. Change ```main.js``` to be a *main module* and import the dependencies
+3. Install webpack via npm and provide ```webpack.config.js```
+4. Change ```index.html``` to load the bundle and fire up the server

@@ -1,0 +1,6 @@
+# Dev time ignore (npm > 5.0 for lock file)
+/package-lock.json
+/src/bundle.js
+
+# NPM dependencies
+/node_modules

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lean-stack/mvvm/issues"
   },
-  "homepage": "https://github.com/lean-stack/mvvm#readme"
+  "homepage": "https://github.com/lean-stack/mvvm#readme",
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
 }

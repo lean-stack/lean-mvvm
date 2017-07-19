@@ -1,10 +1,10 @@
-(function(){
-    console.log( "App starting ...");
+import { Todo } from './model/todo';
 
-    let todos = [
-        new Todo('Async Patterns'),
-        new Todo('Webpack')
-    ]
+console.log( "App starting ...");
 
-    console.log(todos);
-})();
+let todos = [
+    new Todo('Async Patterns'),
+    new Todo('Webpack')
+];
+
+console.log(todos);
