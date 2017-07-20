@@ -34,3 +34,14 @@
 1. Install babel-loader, babel-core and preset (see ```package.json```)
 2. Configure Webpack to use babel
 3. Convenience script entry to fire up build
+
+### Install karma with mocha
+1. Install karma and mocha via npm
+2. Initialize with ```./node_modules/.bin/karma init``` (see ```karma.conf.js```)
+3. Ensure npm packages are installed!
+4. Provide empty test case
+
+### Install assertion and spy libs
+1. Install karma-sinon-chai via npm and it peer dependencies
+2. Add sinon-chai to the karma frameworks
+3. Modify test to use an assertion lib
