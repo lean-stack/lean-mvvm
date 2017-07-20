@@ -29,3 +29,8 @@
 2. Change ```main.js``` to be a *main module* and import the dependencies
 3. Install webpack via npm and provide ```webpack.config.js```
 4. Change ```index.html``` to load the bundle and fire up the server
+
+### Transpile ES 2015+ features via Babel
+1. Install babel-loader, babel-core and preset (see ```package.json```)
+2. Configure Webpack to use babel
+3. Convenience script entry to fire up build
