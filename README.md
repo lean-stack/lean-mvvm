@@ -45,3 +45,7 @@
 1. Install karma-sinon-chai via npm and it peer dependencies
 2. Add sinon-chai to the karma frameworks
 3. Modify test to use an assertion lib
+
+### Use ES2015+ features in tests via webpack
+1. Install karma-webpack via npm
+2. Configure karma to use webpack as preprocessor
